@@ -1,4 +1,4 @@
-version: 3.8
+version: '3.8'
 
 services:
   web:
@@ -14,7 +14,7 @@ services:
       MYSQL_DATABASE: app42
       MYSQL_USER: app42admin
       MYSQL_PASSWORD: gahTho7e
-      MYSQL_RANDOM_ROOT_PASSWORD: yes
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
     volumes:
       - type: bind
         source: ./mysql
